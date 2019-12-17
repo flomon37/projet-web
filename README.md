@@ -37,7 +37,7 @@ Travail par binômes.
   Séances des 09 et 16 décembre dédiées au travail à effectuer
     + test écrit (QCM - 1h) le 16 décembre
 
-  Mail à Daniel.Muller@ec-lyon.fr avant le : 07 janvier 2020 24:00 - sinon pénalités
+  Mail à ***@*****.* avant le : 07 janvier 2020 24:00 - sinon pénalités
   avec l'adresse permettant de consulter votre site en ligne
   et l'adresse du dépôt github où retrouver les fichiers du projet
 
