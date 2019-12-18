@@ -96,6 +96,16 @@ article {
 	/* width : 80%; */
 }
 
+#liste_produit {
+	display : grid;
+  	grid-template-rows: repeat(5,20%);
+}
+
+.produit {
+	display : grid;
+	grid-template-columns: 20% 60% 20%;
+}
+
 footer {
 		background : linear-gradient(90deg,#353535 0,#515151 20%,#515151 46%,#353535);
 		position : fixed;
@@ -133,3 +143,12 @@ footer ul li:nth-child(1)::after {
 	margin-left : 20px;
 }
 
+@media (min-width: 1200px) {
+
+	#content {
+		margin-top : 200px;
+		margin-left : 18%;
+		margin-right : 18%;
+	}
+
+}
