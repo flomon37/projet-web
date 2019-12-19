@@ -1,11 +1,9 @@
 body{
-	/* background-image : url("images/polaroid.png"); */
-	/* background-repeat : repeat; */
-	/* background : linear-gradient(90deg,#353535 0,#515151 20%,#515151 46%,#353535); */
 	background-color: #b8b6b6;
 	display:flex; 
-	 flex-direction:column;
-	 min-width: 364px;
+	flex-direction:column;
+	min-width: 364px;
+	font-family: sans-serif;
 }
 
 header {
@@ -26,7 +24,6 @@ header {
 header img {
 	height : 131px;
 	width: 200px;
-	/* float: left; */
 	display: flex;
 	justify-content: flex-start;
 }
@@ -35,7 +32,6 @@ ul {
 	list-style-type: none; 
 	display : flex;
 	justify-content : center;
-	/* align-items: center; */
 }
 
 li > a {
@@ -44,11 +40,7 @@ li > a {
 }
 
 nav ul{
-	/* float: right; */
-	/* margin-right: 25%; */
-	/* display : flex; */
 	padding: 0 15px 0 20px;
-
 }
 
 
@@ -88,41 +80,58 @@ button {
 
 article {
 	display: flex;
-
 }
 
 #content {
 	margin-top : 200px;
-	/* width : 80%; */
+}
+
+#boutique {
+	display: block;
+	margin : 0 auto;
 }
 
 #liste_produit {
 	display : grid;
-  	grid-template-rows: repeat(5,20%);
+	grid-template-rows: repeat(5,20%);
+	text-align: center;
+}
+
+.image_produit img {
+	max-width: 100%;
 }
 
 .produit {
+	justify-content: center;
 	display : grid;
-	grid-template-columns: 20% 60% 20%;
+	grid-template-columns: 20% 40% 20% 20%;
+	align-items: center;
+	background: white;
+	border-bottom: solid 1px #b8b6b6; 
+}
+
+.dispo {
+	color : green;
+}
+
+.ndispo {
+	color : orangered;
 }
 
 footer {
-		background : linear-gradient(90deg,#353535 0,#515151 20%,#515151 46%,#353535);
-		position : fixed;
-		bottom : 0;
-		left : 0;
-		right : 0;
-		border-top: solid chartreuse;
-		/* margin-left: -8px;
-		margin-right: -8px;
-		margin-bottom: -8px; */
+	background : linear-gradient(90deg,#353535 0,#515151 20%,#515151 46%,#353535);
+	position : fixed;
+	bottom : 0;
+	left : 0;
+	right : 0;
+	border-top: solid chartreuse;
 }
 
 #main-footer {
 	background : linear-gradient(90deg,#353535 0,#515151 20%,#515151 46%,#353535);
-	margin-top: :auto;
-	position : relative;
-	border-top : solid chartreuse;
+	margin-top: auto;
+	position: relative;
+	border-top :solid chartreuse;
 	margin-left : -8px;
 	margin-right : -8px;
 	margin-bottom : -8px;
