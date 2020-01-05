@@ -39,6 +39,14 @@ li > a {
 	color : inherit;
 }
 
+a:hover {
+	color : #666666;
+}
+
+a:target {
+	font-weight: bold;
+}
+
 nav ul{
 	padding: 0 15px 0 20px;
 }
@@ -84,6 +92,9 @@ article {
 
 #content {
 	margin-top : 200px;
+	margin-bottom: 200px;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 #boutique {
@@ -93,18 +104,19 @@ article {
 
 #liste_produit {
 	display : grid;
-	grid-template-rows: repeat(5,20%);
+	grid-template-rows: repeat(6,20%);
 	text-align: center;
 }
 
 .image_produit img {
-	max-width: 100%;
+	width: 100%;
+	max-height: 130px;
 }
 
 .produit {
 	justify-content: center;
 	display : grid;
-	grid-template-columns: 20% 40% 20% 20%;
+	grid-template-columns: 20% 40% 15% 15% 10%;
 	align-items: center;
 	background: white;
 	border-bottom: solid 1px #b8b6b6; 
@@ -116,6 +128,13 @@ article {
 
 .ndispo {
 	color : orangered;
+}
+
+.produit_panier {
+	display : grid;
+	grid-template-columns: 20% 60% 20%;
+	align-items: center;
+	background: white;
 }
 
 footer {
@@ -159,5 +178,6 @@ footer ul li:nth-child(1)::after {
 		margin-left : 18%;
 		margin-right : 18%;
 	}
+
 
 }
