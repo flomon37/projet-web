@@ -13,10 +13,14 @@
 				<ul>
 					<li><a href="index.html">Accueil</a></li>
 					<li><a href="Boutique.html">Boutique</a></li>
-					<li><a href="Panier.html">Panier</a></li>
+					<li><a href="Panier_vide.html">Panier</a></li>
 				</ul>
 			</nav>
-			<form action="Boutique.html"><input type="text" placeholder="Recherchez votre produit..."><button type="submit">&#128270;</button></input></form>
+			<form action="Boutique.html" class="recherche">
+				<input type="text" placeholder="Recherchez votre produit..." class="recherche">
+					<button type="submit">&#128270;</button>
+				</input>
+			</form>
 		</header>
 		
 		<section id="content">
@@ -24,7 +28,38 @@
 					<li class="produit_panier">
 						<div class="image_produit"><img src="assets/images/ecranlcd.jpg" alt="Ecran LCD récent" /></div>
 						<div class="description_produit">Ecran LCD 20 pouces</div>
+						<div class="quantite_produit">
+							<form method="GET" action="Panier.html" class="Panier_qte">
+								<select name="qte" size="1">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+									<option value="6">6</option>
+									<option value="7">7</option>
+									<option value="8">8</option>
+									<option value="9">9</option>
+								</select>
+								<input type="submit" class="Panier_qte" value="Rafraîchir"/>
+							</form>
+						</div>
 						<div class="prix">650 €</div>
+						<div class="poubelle">
+							<form action="Panier_vide.html" class="poubelle">
+								<input type="submit" value="X" title="Enlever du Panier" class="poubelle" />
+							</form>
+						</div>
+					</li>
+					<li class="total_panier">
+						<div>Voici le total de votre Panier :</div>
+						<div> Quantité : 1 article</div>
+						<div>Prix TTC : 650 €</div>
+						<div>
+							<form action="Passer_commande.html">
+								<input type="submit" value="Passer la commande"/>
+							</form>
+						</div>
 					</li>
 				</ul>
 		</section>

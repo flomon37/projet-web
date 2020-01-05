@@ -61,12 +61,12 @@ nav ul li{
 	font-size : 1.5em;
 	background-color: white;
 }
-form {
+form.recherche {
 	display: flex;
 	margin-bottom: 1em;
 }
 
-input {
+input.recherche {
 	display: block;
 	clear : both;
 	width: 16em;
@@ -108,6 +108,12 @@ article {
 	text-align: center;
 }
 
+#liste_panier {
+	display : grid;
+	grid-template-rows: 20%;
+	text-align: center;
+}
+
 .image_produit img {
 	width: 100%;
 	max-height: 130px;
@@ -132,9 +138,40 @@ article {
 
 .produit_panier {
 	display : grid;
-	grid-template-columns: 20% 60% 20%;
+	grid-template-columns: 20% 39% 25% 10% 6%;
 	align-items: center;
+	justify-items: center;
 	background: white;
+}
+
+.poubelle:hover{
+	color : red;
+	cursor: pointer;
+}
+input.poubelle {
+	background-color: white;
+	border: none;
+	color : black;
+	font-weight : bold;
+	font-size: large;
+}
+
+li.panier_vide > a {
+	text-decoration: underline;
+	color : blue;
+}
+
+li.panier_vide > img {
+	height : 200px;
+}
+li.panier_vide {
+	font-size: 2em;
+	text-emphasis: bold;
+}
+
+ul.panier_vide {
+	flex-direction: column;
+	align-items: center;
 }
 
 footer {
