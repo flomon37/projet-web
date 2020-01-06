@@ -105,7 +105,7 @@ article {
 
 #liste_produit {
 	display : grid;
-	grid-template-rows: repeat(6,20%);
+	grid-template-rows: repeat(6,10em);
 	text-align: center;
 }
 
