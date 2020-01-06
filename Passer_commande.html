@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="assets/style.css">
-		<title>Qui sommes-nous ?</title>
+		<title>Passer une commande</title>
 	</head>
   
 	<body>
@@ -26,7 +26,42 @@
 			<div class='bord'></div>
 			<section id="content">
 				<h1>À faire :<br/> Formulaires coordonnées, boutton radio mode paiement etc.</h1>
-				
+				<form action="Passer_commande.html">
+					<fieldset>
+						<legend>Coordonnées mail</legend>
+						<input name="email" type="email" placeholder="E-mail"><br>
+					</fieldset>
+					<fieldset>
+						<legend>Adresse de Livraison</legend>
+						<input name="nom" type="text" placeholder="Nom"><br>
+						<input name="prenom" type="text" placeholder="Prenom"><br>
+						<input name="adresse" type="text" placeholder="Adresse"><br>
+						<input name="email" type="text" placeholder="Code Postal"><br>
+						<input name="ville" type=text placeholder="Ville"><br>
+						<input name="tel" input="tel" placeholder="Téléphone"><br>
+					</fieldset>
+					<fieldset>
+						<legend>Information de paiement</legend>
+						<label> Carte Bancaire<input name="choix_paiement" type="radio" id="cb"></label>
+						<label> Paypal<input name="choix_paiement" type="radio" id="pp"></label>
+						<div class="paiement_cb">
+							<select size="1">
+								<option>Visa</option>
+								<option>Mastercard</option>
+								<option>American Express</option>
+							</select>
+							<input name="No_cb" type="tel" placeholder="Numéro de carte"><br>
+							<input name="Nom_cb" type="text" placeholder="Nom sur la carte"><br>
+							<input name="expiration_cb" type="date" placeholder="MM DD YY">
+							<input name="code_cb" type="tel" placeholder="Code de sécurité"><br>
+						</div>
+						<div class="paiement_paypal">
+							<input name="email-pp" type="email" placeholder="E-mail compte paypal"><br>
+							<input name="mdp-pp" type="password" placeholder="Mot de passe paypal"><br>
+						</div>
+					</fieldset>
+					<input type="submit" nom="envoi_commande" value="Envoyer">
+				</form>
 			</section>
 			<div class='bord'></div>
 		</article>
