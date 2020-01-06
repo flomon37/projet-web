@@ -217,6 +217,10 @@ div.image_produit img {
     padding-left: 3px;
 }
 
+	display : grid;
+	grid-template-rows: repeat(2,10em);
+	text-align: center;
+}
 
 li.panier_vide > a {
 	text-decoration: underline;
