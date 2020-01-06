@@ -217,6 +217,7 @@ div.image_produit img {
     padding-left: 3px;
 }
 
+#liste_panier {
 	display : grid;
 	grid-template-rows: repeat(2,10em);
 	text-align: center;
