@@ -1,6 +1,6 @@
 HTML : 
   Pages complète : Passer_commande.html, description_prod.html.
-  À compléter : Qui sommes nous ? (un peu), détails technique (beaucoup plus)
+  À compléter : Qui sommes nous ? (un peu), détails technique (beaucoup plus), Accueil (Ajout logos + promos + message du jour etc.)
   
   
 CSS : 
