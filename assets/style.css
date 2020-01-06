@@ -94,7 +94,7 @@ article {
 	margin-top : 200px;
 	margin-bottom: 200px;
 	padding-left: 5%;
-	padding-right: 5%; 
+	padding-right: 5%;
 }
 
 #boutique {
@@ -104,29 +104,16 @@ article {
 
 #liste_produit {
 	display : grid;
-	grid-template-rows: repeat(6,8em);
+	grid-template-rows: repeat(6,20%);
 	text-align: center;
 }
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
 #liste_panier {
 	display : grid;
 	grid-template-rows: 20%;
 	text-align: center;
 }
 
-<<<<<<< Updated upstream
-=======
-.description_produit a{
-	color : black;
-}
-
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 .image_produit img {
 	width: 100%;
 	max-height: 130px;
@@ -157,11 +144,6 @@ article {
 	background: white;
 }
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
 .poubelle:hover{
 	color : red;
 	cursor: pointer;
@@ -174,21 +156,6 @@ input.poubelle {
 	font-size: large;
 }
 
-<<<<<<< Updated upstream
-=======
-#page_description {
-	display : grid ;
-}
-
-.elem_descri {
-	display : grid;
-	grid-template-columns: 40% 60%;
-}
-.elem_descri:nth-child(2n+1) {
-	font-weight: bold;
-}
-
->>>>>>> Stashed changes
 li.panier_vide > a {
 	text-decoration: underline;
 	color : blue;
@@ -207,7 +174,6 @@ ul.panier_vide {
 	align-items: center;
 }
 
-<<<<<<< Updated upstream
 .paiement_cb {
 	display: none;
 }
@@ -225,9 +191,6 @@ ul.panier_vide {
 }
 
 
-=======
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 footer {
 	background : linear-gradient(90deg,#353535 0,#515151 20%,#515151 46%,#353535);
 	position : fixed;
