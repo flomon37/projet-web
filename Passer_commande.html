@@ -42,8 +42,10 @@
 					</fieldset>
 					<fieldset>
 						<legend>Information de paiement</legend>
-						<label> Carte Bancaire<input name="choix_paiement" type="radio" id="cb"></label>
-						<label> Paypal<input name="choix_paiement" type="radio" id="pp"></label>
+						<label for="cb"> Carte Bancaire </label>
+						<input name="choix_paiement" type="radio" id="cb">
+						<label for="pp">Paypal</label>
+						<input name="choix_paiement" type="radio" id="pp">
 						<div class="paiement_cb">
 							<select size="1">
 								<option>Visa</option>
@@ -55,10 +57,10 @@
 							<input name="expiration_cb" type="date" placeholder="MM DD YY">
 							<input name="code_cb" type="tel" placeholder="Code de sécurité"><br>
 						</div>
-						<div class="paiement_paypal">
+						<div class="paiement_pp">
 							<input name="email-pp" type="email" placeholder="E-mail compte paypal"><br>
 							<input name="mdp-pp" type="password" placeholder="Mot de passe paypal"><br>
-						</div>
+						</div>	
 					</fieldset>
 					<input type="submit" nom="envoi_commande" value="Envoyer">
 				</form>
