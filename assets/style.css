@@ -187,7 +187,7 @@ input.poubelle {
 	justify-content: center;
 }
 
-#produit_resum > a {
+#produit_resum > div {
 	align-self: flex-start;
 	border : 1px solid gray;
 	border-radius : 5px;
@@ -199,9 +199,22 @@ input.poubelle {
 	text-decoration: none;
 	color : black;
 }
+#produit_resum > div > a {	
+	text-decoration: none;
+	color : black;
+}
 
-#produit_resum a:hover {
+#prix_prod{
+	border-right: 3px solid gray;
+	padding-right: 10px;
+}
+
+#produit_resum > div > a:hover {
 	color : #666666;
+}
+
+div.image_produit img {
+    padding-left: 3px;
 }
 
 #liste_panier {
