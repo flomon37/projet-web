@@ -91,6 +91,18 @@ article {
 	display: flex;
 }
 
+article.commande {
+	justify-content: center;
+}
+
+section.commande {
+	text-align: center;
+	margin-top : 105px;
+	margin-bottom: 150px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
 #content {
 	margin-top : 200px;
 	margin-bottom: 200px;
