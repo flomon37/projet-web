@@ -185,6 +185,11 @@ section.commande {
 	color: black;
 }
 
+#btn-commande:hover {
+	cursor: pointer;
+	color : gray;
+}
+
 .poubelle:hover{
 	color : red;
 	cursor: pointer;
